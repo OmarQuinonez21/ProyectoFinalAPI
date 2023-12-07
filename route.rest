@@ -1,0 +1,28 @@
+GET http://localhost:3000/listado
+
+###
+
+GET http://localhost:3000/listado/6562b1bd765627f5830f911b
+
+###
+
+POST http://localhost:3000/listado
+Content-Type: application/json
+
+{
+    "name": "Light Yagami",
+    "Descripcion": "Personaje protagonista de Death note con gran capacidad logica llego a ser considerado un Dios",
+    "Anime": "Death Note"
+}
+
+###
+
+DELETE http://localhost:3000/listado/656bfab3be4db7f734cd01f3
+
+###
+PATCH http://localhost:3000/listado/65668613237f6be96dadd845
+Content-Type: application/json
+
+{
+    "Descripcion": "En su primera aparición parecía un chico serio y arisco, pero luego se revela que es un chico amable y hace lo que sea por proteger a quien quiere."
+}
